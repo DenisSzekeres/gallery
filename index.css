@@ -8,6 +8,10 @@ h1 {
     margin: 0 32px 0 0;
 }
 
+.gallery {
+    padding: 16px;
+}
+
 .links {
     display: inline-block;
 }
@@ -22,6 +26,7 @@ h1 {
 
 a.active {
     border-bottom: 1px solid black;
+    padding-bottom: 1px;
 }
 
 .links a {
@@ -33,4 +38,54 @@ a.active {
 
 .navbar {
     margin: 32px;
+}
+
+img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+img:hover {
+    opacity: 0.8;
+}
+
+.card {
+    width: 49.75%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+h2 {
+    display: inline-block;
+    margin: 0;
+    font-weight: 300;
+}
+
+.about {
+    width: 40%;
+    min-width: 600px;
+    margin: 100px 0 100px 200px
+}
+
+.about h3 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.cta {
+    display: inline-block;
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+    margin-top: 10px;
+}
+
+.contact {
+    margin-top: 100px;
+}
+
+.contact p {
+    margin: 0;
+    font-size: 20px;
 }
